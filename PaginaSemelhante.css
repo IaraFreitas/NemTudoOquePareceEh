@@ -1,8 +1,50 @@
 *{
-    font-family: fantasy;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
-    background-color: aqua;
+    background-color: yellowgreen;
     padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header i{
+    color: blue;
+    font-size: 50px;
+}
+
+.header .menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    font-size: 30px;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+
+h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    bottom: 60px;
+}
+
+
+.imagens{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 40px;
+   margin: 0 auto;
+   background-color: blue;
+   margin-left: 30px;
+   margin: 10 10 20px;
 }
