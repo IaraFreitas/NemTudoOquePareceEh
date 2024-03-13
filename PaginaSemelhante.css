@@ -5,23 +5,22 @@
 }
 
 .header{
-    background-color: yellowgreen;
-    padding: 60px;
     display: flex;
     justify-content: space-between;
+    background-color: crimson;
+    padding: 30px;   
 }
 
 .header i{
-    color: blue;
-    font-size: 50px;
+    font-size: 100px;
 }
 
-.header .menu{
+.header ul{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 50px;
     font-size: 30px;
     list-style: none;
+    margin-left: 10px;
 }
 
 h1{
@@ -30,7 +29,6 @@ h1{
     font-size: 40px;
 }
 
-
 h2{
     text-align: center;
     padding: 30px;
@@ -38,13 +36,26 @@ h2{
     bottom: 60px;
 }
 
-
 .imagens{
-   display: flex;
-   flex-wrap: wrap;
-   margin-top: 40px;
-   margin: 0 auto;
-   background-color: blue;
-   margin-left: 30px;
-   margin: 10 10 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    flex-wrap: wrap;/*serve para quebrar imagens na página*/
 }
+
+.imagens img{
+   display: block;
+   max-width: 100%;    
+   
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: crimson;
+    padding: 40px;
+    list-style: none;
+    color: white;
+}
+
+
