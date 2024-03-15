@@ -1,2 +1,2 @@
-# Semelhante
- Aplicar técnicas da atividade anterior
+# Nem tudo o que parece é 😉
+html & css
