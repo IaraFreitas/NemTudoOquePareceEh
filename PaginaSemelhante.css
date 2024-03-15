@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     background-color: crimson;
-    padding: 25px;
+    padding: 30px;
     color: white;
     align-items: center;
 }
@@ -29,15 +29,19 @@
     color: crimson;
     margin-left: 50px;
     background-color: white;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 5px;
     text-align: center;
     padding: 10px;
 }
 
+.menu1 a:hover{
+    color: rgba(0, 0, 255, 0.705);
+}
+
 h1{
     text-align: center;
-    padding: 35px;
+    padding: 65px;
     font-size: 40px;
     background-color: black;
     color: white;
@@ -45,8 +49,8 @@ h1{
 
 h2{
     text-align: center;
-    padding: 25px;
-    font-size: 25px;
+    height: 80px;
+    font-size: 20px;
     background-color: black;
     color: white;
 }
@@ -60,13 +64,13 @@ h2{
 
 .imagens div img{
    display: block;  
-   width: 300px;
-   height: 300px;
-   padding: 40px;
+   width: 250px;
+   height: 250px;
+   padding: 50px;
 }
 
 .texto{
-    padding: 80px;
+    padding: 110px;
     text-align: justify;
     background-color: black;
     color: white;
@@ -77,16 +81,24 @@ h2{
     display: flex;
     justify-content: space-evenly;
     background-color: crimson;
-    padding: 30px;
+    padding: 60px;
     
 }
 
-.menu2{
+.menu2 {
     display: flex;
+    justify-content: space-evenly;
     list-style: none;
-    text-decoration: none;
-    color: white;
     
-      
-}
+    }
 
+    .menu2 a{
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    }
+
+    .menu2 a:hover{
+        color:rgba(0, 0, 255, 0.705) ;
+    }
