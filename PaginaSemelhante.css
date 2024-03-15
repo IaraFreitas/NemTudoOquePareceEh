@@ -4,58 +4,89 @@
     padding: 0;
 }
 
+.header i{ /*tratamos o ícone como texto na hora de configurá-lo*/
+    font-size: 80px;
+    text-align: left;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     background-color: crimson;
-    padding: 30px;   
+    padding: 25px;
+    color: white;
+    align-items: center;
 }
 
-.header i{
-    font-size: 100px;
+.menu1 {
+   display: flex;
+   list-style: none;
+  
 }
 
-.header ul{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 30px;
-    list-style: none;
-    margin-left: 10px;
+.menu1 a{
+    text-decoration: none;
+    color: crimson;
+    margin-left: 50px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
 }
 
 h1{
     text-align: center;
-    padding: 20px;
+    padding: 35px;
     font-size: 40px;
+    background-color: black;
+    color: white;
 }
 
 h2{
     text-align: center;
-    padding: 30px;
-    font-size: 20px;
-    bottom: 60px;
+    padding: 25px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
 }
 
 .imagens{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 10px;
     flex-wrap: wrap;/*serve para quebrar imagens na página*/
+    background-color: rgba(0, 0, 255, 0.705);
 }
 
-.imagens img{
-   display: block;
-   max-width: 100%;    
-   
+.imagens div img{
+   display: block;  
+   width: 300px;
+   height: 300px;
+   padding: 40px;
 }
 
-.footer ul{
+.texto{
+    padding: 80px;
+    text-align: justify;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.footer{
     display: flex;
     justify-content: space-evenly;
     background-color: crimson;
-    padding: 40px;
-    list-style: none;
-    color: white;
+    padding: 30px;
+    
 }
 
+.menu2{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+      
+}
 
